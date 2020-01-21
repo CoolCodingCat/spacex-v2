@@ -31,15 +31,6 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 html { 
   background: url("./ressources/bckgr.png") repeat center center fixed; 
   -webkit-background-size: cover;
@@ -51,3 +42,13 @@ html {
   .button {
     margin-bottom: 1em;
   }
+  .logo-space {
+    display: block;
+    width: 300px;
+    padding-left: 30px;
+    margin: 2rem auto 0px auto;
+    
+}
+.header {
+  margin-bottom: 3em;
+}
