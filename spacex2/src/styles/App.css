@@ -1,10 +1,15 @@
 @font-face{
   font-family: Martian;
-  src: url(./fonts/Martian.woff);
+  src: url(../fonts/Martian.woff);
+}
+@font-face{
+  font-family: SchoonerScript;
+  src: url(../fonts/SchoonerScript.woff);
 }
 
 .App {
   text-align: center;
+  font-family: Martian, sans-serif;
 }
 
 .App-logo {
@@ -32,15 +37,16 @@
   color: #61dafb;
 }
 html { 
-  background: url("./ressources/bckgr.png") repeat center center fixed; 
+  background: url("../ressources/bckgr.png") repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: Martian, sans-serif;
+  
   }
   .button {
     margin-bottom: 1em;
+    font-family: Martian, sans-serif;
   }
   .logo-space {
     display: block;
@@ -51,4 +57,8 @@ html {
 }
 .header {
   margin-bottom: 3em;
+}
+.slogan {
+  font-family: SchoonerScript;
+  font-size: 2em;
 }
