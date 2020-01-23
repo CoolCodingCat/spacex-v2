@@ -11,7 +11,7 @@ class Header extends Component {
         <div className="header">
           <img className="logo-space" src={spacex} alt="space X logo"/>
             <div>
-                <h2>Summon the Dragons</h2>
+                <h2 className="slogan">Summon the Dragons</h2>
             </div>
            
         </div>
