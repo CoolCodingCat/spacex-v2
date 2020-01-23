@@ -62,3 +62,13 @@ html {
   font-family: SchoonerScript;
   font-size: 2em;
 }
+a {
+  color: white;
+}
+a:hover {
+  color:#E13DD3;
+}
+svg {
+  color: #3273dc;
+}
+
