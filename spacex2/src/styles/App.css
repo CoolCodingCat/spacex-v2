@@ -47,7 +47,6 @@ html {
   .button {
     margin-bottom: 1em;
     font-family: Martian, sans-serif;
- 
   }
   .logo-space {
     display: block;
@@ -63,3 +62,13 @@ html {
   font-family: SchoonerScript;
   font-size: 2em;
 }
+a {
+  color: white;
+}
+a:hover {
+  color:#E13DD3;
+}
+svg {
+  color: #3273dc;
+}
+

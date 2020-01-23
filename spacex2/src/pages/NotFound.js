@@ -5,7 +5,7 @@ import BackHome from '../components/ReturnHome';
 
 
 
-class Roadster extends Component {
+class NotFound extends Component {
         render() {
           return (
             
@@ -13,7 +13,7 @@ class Roadster extends Component {
           <header className="App-header">
             <Header/>
             <BackHome/>
-            <h1>ROADSTER</h1>
+            <h1>404 PAGE NOT FOUND</h1>
           </header>
         </div>
             
@@ -21,4 +21,4 @@ class Roadster extends Component {
         }
       }
   
-  export default Roadster
+  export default NotFound

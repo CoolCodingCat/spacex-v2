@@ -1,24 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import './index.css';
 //import App from './App';
 import Home from './pages/Homepage';
 import NextFlight from './pages/NextFlightResults';
 import Rockets from './pages/RocketsResults';
 import Roadster from './pages/RoadsterInfo';
+import NotFound from './pages/NotFound';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
     <Router>
       <div>
-        <Route exact path="/" component={Home} />
-        <Route path="/rockets" component={Rockets} />
-        <Route path="/roadster" component={Roadster} />
-        <Route path="/next" component={NextFlight} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/rockets" component={Rockets} />
+            <Route path="/roadster" component={Roadster} />
+            <Route path="/next" component={NextFlight} />
+            <Route component={NotFound} />>
+          </Switch>
       </div>
     </Router>
   );
+
   
 
   ReactDOM.render(routing, document.getElementById('root'));
