@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/App.css';
-import Home from './pages/homepage';
+import Home from './pages/Homepage';
 /* import MenuButton from './components/MenuButton';
 import Header from './components/Header'; */
 
